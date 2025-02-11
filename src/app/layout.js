@@ -1,5 +1,5 @@
 import './globals.css'; // Tus estilos globales
-import Navbar from '../components/NavBar'; // Ruta al componente de navegación
+import {Navbar} from '../components'; // Ruta al componente de navegación
 
 export const metadata = {
   title: 'Mi Sitio Web',

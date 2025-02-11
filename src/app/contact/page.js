@@ -1,8 +1,13 @@
-export default function Contact() {
+import React from 'react';
+import { ContactPage } from '../../../pages/ContactPage';
+
+export const Contact = () => {
     return (
       <main>
         <h1>Contacto</h1>
-        <p>¡Envíanos tus preguntas o comentarios!</p>
+        <ContactPage />
       </main>
     );
   }
+
+export default Contact;

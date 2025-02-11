@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 
-export default function Navbar() {
+export const Navbar = () => {
   return (
     <nav>
       <ul>
@@ -22,3 +22,5 @@ export default function Navbar() {
     </nav>
   );
 }
+
+export default Navbar;
